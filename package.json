@@ -4,12 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "lite-server"
   },
   "repository": {
     "type": "git",
     "url": "myprotien"
   },
   "author": "Arjun Verma",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "lite-server": "^2.6.1"
+  }
 }
